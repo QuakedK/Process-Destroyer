@@ -40,3 +40,6 @@ As Both [Process Destroyer]() & [Oneclick]() are meant to be ran together please
 
 (Restore Point Creation)
 It doesn't disable the ability to system restore from a existing restore point. But just the ability to create a new one.
+
+(Windows Defender)
+Enough Said.
