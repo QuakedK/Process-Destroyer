@@ -37,3 +37,6 @@ As Both [Process Destroyer]() & [Oneclick]() are meant to be ran together please
 30. WdNisSvc
 31. SamSs
 32. VaultSvc
+
+(Restore Point Creation)
+It doesn't disable the ability to system restore from a existing restore point. But just the ability to create a new one.
