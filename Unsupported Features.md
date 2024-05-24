@@ -1,4 +1,4 @@
-# Unsupported or disabled features of Oneclick
+# Unsupported or disabled features of Process Destroyer
 
 As Both [Process Destroyer]() & [Oneclick]() are meant to be ran together please check out the [Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md)
 
