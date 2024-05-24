@@ -8,4 +8,4 @@ It's required to be ran on a system that installed windows with an offline accou
 You can indeed install windows 11 on a offline account following this [Tutorial](https://youtu.be/EV-cpglQgT8?si=6V9E8mnqMButA5b8&t=63)
 It's also recommend you install all you're necessary apps & programs, along side you're nvidia drivers first. 
 
-Installation: You either run [Process Destroyer]() first or Oneclick first, but prefearably running [Oneclick]() and installing Process Destroyer when prompted inside of Oneclick.
+Installation: You either run [Process Destroyer]() first or [Oneclick]() first, but prefearably running Oneclick and installing Process Destroyer when prompted inside of Oneclick.
