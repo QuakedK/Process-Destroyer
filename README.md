@@ -9,4 +9,4 @@ You can indeed install windows 11 on a offline account following this [Tutorial]
 It's also recommend you install all you're necessary apps & programs, along side you're Gpu Driver & Dcontrol first.
 Also Make sure to run Oneclick with or alongside Process Destroyer.**
 
-Installation: You either run [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/Tweaker/Process-Destroyer-V1.5.bat) first or [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V6.0.bat) first, but prefearably running Oneclick and installing Process Destroyer when prompted inside of Oneclick.
+Installation: You either run [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/Tweaker/Process-Destroyer-V1.5.bat) first or [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V6.0.bat) first, but prefearably running Oneclick and installing Process Destroyer when prompted inside of Oneclick. **Process Destroyer needs to be ran with [Nsudo](https://github.com/M2TeamArchived/NSudo/releases)**
