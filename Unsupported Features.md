@@ -4,8 +4,8 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 
 (Nvidia Feature's such as these should be unsupported since Process Destroyer disables Nvidia Container's.)
 1. Nvidia Clipping/Shadowplay
-2. Nvidia experience
-3. Nvidia App
+2. Nvidia experience/Nvidia App
+3. Nvidia Control Panel
 
 (Services)
 4. BFE
