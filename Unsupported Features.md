@@ -39,7 +39,7 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 32. VaultSvc
 
 (Restore Point Creation)
-It doesn't disable the ability to system restore from a existing restore point. But just the ability to create a new one.
+Can't use or create Restore Points.
 
 (Windows Defender)
 Enough Said.
