@@ -5,7 +5,7 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 (Nvidia Feature's such as these should be unsupported since Process Destroyer disables Nvidia Container's.)
 1. Nvidia Clipping/Shadowplay
 2. Nvidia experience/Nvidia App
-3. Nvidia Control Panel
+3. Nvidia Control Panel, If you want it back run [NvControlPanel](https://github.com/QuakedK/Downloads/blob/main/NvControlPanel.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe)
 
 (Services)
 4. BFE
