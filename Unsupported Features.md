@@ -48,7 +48,7 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 Can't use or create Restore Points.
 
 (Windows Defender)
-Enough Said.
+Enough Said, Use [Windows Security Fixer](https://github.com/QuakedK/Downloads/blob/main/Windows%20Security%20Fixer.bat) if you can't open Windows Security/Defender. Then Download [Dcontrol](https://github.com/QuakedK/Downloads/blob/main/Dcontrol.rar) using Sordum as the password to extract and disable or renebale defender.
 
 (Windows key/licence)
 It may bug out and deactivate windows, just run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
