@@ -37,6 +37,12 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 30. WdNisSvc
 31. SamSs
 32. VaultSvc
+33. LicenseManager
+34. Camsvc
+35. gpsvc
+36. Netprofm
+37. ProfSvc 
+38. EventLog
 
 (Restore Point Creation)
 Can't use or create Restore Points.
