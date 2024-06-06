@@ -41,8 +41,8 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 34. Camsvc
 35. gpsvc
 36. Netprofm
-37. ProfSvc 
-38. EventLog
+37. EventLog 
+38. PlugPlay
 
 (Restore Point Creation)
 Can't use or create Restore Points.
