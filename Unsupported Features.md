@@ -39,10 +39,9 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 32. VaultSvc
 33. LicenseManager
 34. gpsvc
-35. Netprofm
-36. EventLog 
-37. PlugPlay
-38. SgrmBroker
+35. EventLog 
+36. PlugPlay
+37. SgrmBroker
 
 (Restore Point Creation)
 Can't use or create Restore Points.
