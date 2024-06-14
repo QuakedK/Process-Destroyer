@@ -4,7 +4,8 @@ Process Destroyer: The Oneclick Continuer. 😎
 Process Destroyer's primary goal is to debloat things Oneclick, couldn't do without elevated privileges!
 Leading to an outstanding reduction off processes ontop of what oneclick already does.
 
-**Requirements**
+**Requirements:**
+
 Process Destroyer is required to be ran on a system that installed windows with an offline/Local account, other wise you'll get a blank screen when logging in.
 It's also heavily recommended you install all you're necessary apps & programs, along side you're Gpu Driver & most importantly [Dcontrol](https://www.sordum.org/9480/defender-control-v2-1/) first.
 Also Make sure to run Oneclick with or alongside Process Destroyer.
