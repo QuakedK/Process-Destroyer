@@ -13,4 +13,4 @@ Offline/Local Account Tutorial.
 [Windows 11](https://youtu.be/VOtOEEGxbu4?si=Q9WdHbVFJQExuPk8)
 /[Windows 10](https://www.youtube.com/watch?v=rHEgHumzjVQ)
 
-Installation: You either run [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/tweak/Process-Destroyer-V2.1.bat) first or [Oneclick](https://github.com/QuakedK/Oneclick) first, but prefearably running Oneclick and installing Process Destroyer when prompted inside of Oneclick. **Process Destroyer needs to be ran with [Nsudo](https://github.com/M2TeamArchived/NSudo/releases)**
+Installation: Either Drag Process Destroyer into [Nsudo](https://github.com/M2TeamArchived/NSudo/releases) or Run it in [Oneclick](https://github.com/QuakedK/Oneclick)
