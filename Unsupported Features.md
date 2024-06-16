@@ -54,3 +54,6 @@ It may bug out and deactivate windows, just run [Massgravel](https://github.com/
 
 (Task/Task Scheduler)
 Since the Service Schedule isn't enabled, things like Msi Afterburner Won't start on startup. You could use [Msi Afterburner Auto Start Reg](https://github.com/QuakedK/Downloads/blob/main/Msi%20Afterburner%20Auto%20Start.reg) or Reenable Schedule with [Schedule Enabler](https://github.com/QuakedK/Downloads/blob/main/Reenable%20Schedule.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe).
+
+(Windows Search)
+Completely Breaks after Process Destroyer, Unless you use [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu)
