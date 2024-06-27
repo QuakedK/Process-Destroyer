@@ -59,4 +59,4 @@ Since the Service Schedule isn't enabled, things like Msi Afterburner Won't star
 Completely Breaks after Process Destroyer, Unless you use [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu)
 
 (Wifi)
-Process Destroyer Will back Wifi.
+Process Destroyer Will break Wifi.
