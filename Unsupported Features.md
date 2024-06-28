@@ -42,6 +42,7 @@ As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/release
 35. EventLog 
 36. PlugPlay
 37. SgrmBroker
+38. msiserver 
 
 (Restore Point Creation)
 Can't use or create Restore Points.
