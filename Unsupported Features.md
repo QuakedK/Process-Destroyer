@@ -52,6 +52,7 @@ Enough Said, Use [Windows Security Fixer](https://github.com/QuakedK/Downloads/b
 
 (Windows key/licence)
 It may bug out and deactivate windows, just run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
+If you get a trusted installer error with NSudo Open CMD as admin and paste sc config TrustedInstaller start=disabled
 
 (Task/Task Scheduler)
 Since the Service Schedule isn't enabled, things like Msi Afterburner Won't start on startup. You could use [Msi Afterburner Auto Start Reg](https://github.com/QuakedK/Downloads/blob/main/Msi%20Afterburner%20Auto%20Start.reg) or Reenable Schedule with [Schedule Enabler](https://github.com/QuakedK/Downloads/blob/main/Reenable%20Schedule.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe).
