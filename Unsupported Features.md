@@ -62,3 +62,5 @@ Completely Breaks after Process Destroyer, Unless you use [Open Shell](https://g
 
 (Wifi)
 Process Destroyer Will break Wifi.
+
+If NSudo is not working run [TrustedInstaller Enabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Enabler.bat) or if you need to Disable it after run [TrustedInstaller Disabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Disabler.bat)
