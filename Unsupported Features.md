@@ -51,8 +51,12 @@ Can't use or create Restore Points.
 Enough Said, Use [Windows Security Fixer](https://github.com/QuakedK/Downloads/blob/main/Windows%20Security%20Fixer.bat) if you can't open Windows Security/Defender. Then Download [Dcontrol](https://github.com/QuakedK/Downloads/blob/main/Dcontrol.rar) using Sordum as the password to extract and disable or renebale defender.
 
 (Windows key/licence)
-It may bug out and deactivate windows, just run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
-If you get a trusted installer error with NSudo Open CMD as admin and paste sc config TrustedInstaller start=auto
+It may bug out and deactivate windows but we can fix this easily with 2 different fast and simple methods!
+Method 1, Open Cmd as admin & paste "net start sppsvc" then it should reactivate and paste net stop sppsvc.
+Method 2, run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
+If you get a trusted installer error with NSudo Open CMD as admin and paste sc config TrustedInstaller start=auto.
+
+
 
 (Task/Task Scheduler)
 Since the Service Schedule isn't enabled, things like Msi Afterburner Won't start on startup. You could use [Msi Afterburner Auto Start Reg](https://github.com/QuakedK/Downloads/blob/main/Msi%20Afterburner%20Auto%20Start.reg) or Reenable Schedule with [Schedule Enabler](https://github.com/QuakedK/Downloads/blob/main/Reenable%20Schedule.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe).
@@ -63,4 +67,7 @@ Completely Breaks after Process Destroyer, Unless you use [Open Shell](https://g
 (Wifi)
 Process Destroyer Will break Wifi.
 
-If NSudo is not working run [TrustedInstaller Enabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Enabler.bat) or if you need to Disable it after run [TrustedInstaller Disabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Disabler.bat)
+If NSudo is not working run [TrustedInstaller Enabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Enabler.bat) or if you need to Disable it after run [TrustedInstaller Disabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Disabler.bat) or paste sc config TrustedInstaller start=auto into cmd as admin!
+
+(.Net Runtimes Install)
+You need to open [Windows Installer Enable](https://github.com/QuakedK/Downloads/blob/main/Windows%20Installer%20Enable.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) to install you're needed runtimes! [Windows Installer Disable](https://github.com/QuakedK/Downloads/blob/main/Windows%20Installer%20Disable.bat)
