@@ -71,3 +71,20 @@ If NSudo is not working run [TrustedInstaller Enabler](https://github.com/Quaked
 
 (.Net Runtimes Install)
 You need to open [Windows Installer Enable](https://github.com/QuakedK/Downloads/blob/main/Windows%20Installer%20Enable.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) to install you're needed runtimes! [Windows Installer Disable](https://github.com/QuakedK/Downloads/blob/main/Windows%20Installer%20Disable.bat)
+
+(NVIDIA Control Panel) 
+Can't use it, but can reenable it!
+1. Download [NvControlPanel.bat](https://github.com/QuakedK/Downloads/blob/main/NvControlPanel.bat).
+2. Download [NSudoLG.exe](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe)
+3. Open NSudoLG.exe and Enable All Privileges then drag NvControlPanel.bat into Nsudo.
+
+Method 2: 
+1. Download [NVIDIAControlPanel.Appx](https://github.com/QuakedK/Downloads/blob/main/NVIDIACorp.NVIDIAControlPanel_8.1.966.0_x64__56jybvy8sckqj.Appx)
+2. Download [Process Destroyer 2.1 REVERT](https://github.com/QuakedK/Downloads/blob/main/Oneclick%20Process%20Destroyer%202.1%20REVERT.bat)
+3. Download [NSudoLG.exe](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) 
+4. Open NSudoLG.exe and Enable All Privileges then drag Process Destroyer 2.1 REVERT into Nsudo then restart.
+5. Open open powershell as admin and paste Add-AppxPackage -Path "C:\Users\Quaked\Downloads\NVIDIACorp.NVIDIAControlPanel_8.1.966.0_x64__56jybvy8sckqj.Appx"
+   But change the path to your path NVIDIACorp.NVIDIAControlPanel_8.1.966.0_x64__56jybvy8sckqj.Appx
+
+NSudo Error:
+1. Open Cmd as admin and paste sc config TrustedInstaller start=auto
