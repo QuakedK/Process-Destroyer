@@ -53,7 +53,8 @@ Enough Said, Use [Windows Security Fixer](https://github.com/QuakedK/Downloads/b
 (Windows key/licence)
 It may bug out and deactivate windows but we can fix this easily with 2 different fast and simple methods!
 Method 1, Open Cmd as admin & paste "net start sppsvc" then it should reactivate and paste net stop sppsvc.
-Method 2, run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
+Method 2, Open [Software Protection](https://github.com/QuakedK/Downloads/blob/main/Software%20Protection.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe).
+Method 3, run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
 If you get a trusted installer error with NSudo Open CMD as admin and paste sc config TrustedInstaller start=auto.
 
 
