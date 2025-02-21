@@ -23,3 +23,5 @@ Offline/Local Account Tutorial.
 /[Windows 10](https://www.youtube.com/watch?v=rHEgHumzjVQ)
 
 Installation: Either Drag Process Destroyer into [Nsudo](https://github.com/M2TeamArchived/NSudo/releases) or Run it in [Oneclick](https://github.com/QuakedK/Oneclick)
+
+![GitHub Release Downloads](https://img.shields.io/github/downloads/QuakedK/Process-Destroyer/total)
