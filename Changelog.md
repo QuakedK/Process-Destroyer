@@ -41,9 +41,6 @@
 - Removed EventLog Service. (Oneclick Disables it)
 - Removed SgrmBroker Service. (Oneclick Disables it)
 
-*Changed*
-- Changed hidserv to disable.
-
 *Made*
 - Made a Process Destroyer Extreme version that deletes services.
 
