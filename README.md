@@ -12,7 +12,7 @@ There are very few use cases where someone should use a program like this, but i
 Process Destroyer is required to be ran on a system that installed windows with an [Offline/Local Account](https://github.com/QuakedK/Process-Destroyer/edit/main/README.md#offlinelocal-account-tutorial).
 Meaning you did not, under no circumstances login into a microsoft account when setting up windows. 
 It does not matter if you're currently logged into a [Offline/Local Account](https://github.com/QuakedK/Process-Destroyer/edit/main/README.md#offlinelocal-account-tutorial) or it displayes that you are, you needed to have setup/installed windows without an online account. 
-All necessary Apps, Programs, Drivers and Gpu Drivers should be installed before running Process Destroyer.
+All necessary Apps, Programs, Drivers and Gpu Drivers should be installed before running Process Destroyer, it's also recommended Windows Defender is disabled.
 Any failure to met the requirements to be on a an offline/Local account, will result in a black screen when logging in.
 
 # Is Process Destroyer Recommended?
@@ -69,6 +69,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\msiserver" /v "Start" /t REG_DWO
 1. Open [Nsudo](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
 2. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```
+:: Import Registry Backup.
 reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 ```
 
@@ -77,6 +78,12 @@ reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 2. Now Open [Nsudo](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
 3. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```
+:: Revert Ctfmon, BackgroundTaskHost, and TextInputHost.
+REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe" 
+REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
+REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
+
+:: Import Registry Backup.
 reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 ```
 
