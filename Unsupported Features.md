@@ -29,7 +29,7 @@ Process Destroyer makes Software Protection Service manual meaning, every 6 hour
 However you can either set it back to automatic or use a batch to stop and start it from time to time.
 
 **Method 1**
-1. Download [Software Protection](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/Software%20Protection.bat).
+1. Download [Software Protection](https://github.com/QuakedK/Process-Destroyer/blob/main/Downloads/Software%20Protection.bat).
 2. Open it when needed!
 
 **Method 2**
