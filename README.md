@@ -31,7 +31,7 @@ After the ideal use of Oneclick with no wifi idling for 15 minutes, you'll likly
 
 [Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/Services/Process-Destroyer-Extreme-V2.3.bat) | The **Extreme Version** that deletes almost all services, leaving Services.msc looking as empty as possible. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md).
 
-[Oneclick Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/Services/Oneclick-Process-Destroyer-2.3.bat) & [Oneclick Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/Services/Oneclick-Process-Destroyer-Extreme-V2.3.bat) | The **Oneclick Versions** that are paired with Oneclick and Oneclick Tools <3
+[Oneclick Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/Services/Oneclick-Process-Destroyer-V2.3.bat) & [Oneclick Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/Services/Oneclick-Process-Destroyer-Extreme-V2.3.bat) | The **Oneclick Versions** that are paired with Oneclick and Oneclick Tools <3
 
 1. Download [Nsudo](https://github.com/M2TeamArchived/NSudo/releases/download/9.0-Preview1/NSudo_9.0_Preview1_9.0.2676.0.zip) (Offical Site) or the Standalone exe from [Downloads](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe)
 2. Download and choose your [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/tag/Services) version.
