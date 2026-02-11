@@ -1,91 +1,43 @@
 # Unsupported or disabled features of Process Destroyer
+⚠️ **Please read carefully, we are not responsible for any issues that may occur:**
 
-As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/Tweaker/Process-Destroyer-V1.5.bat) & [Oneclick](https://github.com/QuakedK/Oneclick) are meant to be ran together please check out the [Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md)
+As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) & [Oneclick](https://github.com/QuakedK/Oneclick) are meant to be ran together please check out the [Oneclick Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md)
+___
 
-(Nvidia Feature's such as these should be unsupported since Process Destroyer disables Nvidia Container's.)
-1. Nvidia Clipping/Shadowplay
-2. Nvidia experience/Nvidia App
-3. Nvidia Control Panel, If you want it back run [NvControlPanel](https://github.com/QuakedK/Downloads/blob/main/NvControlPanel.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe)
+# Restore Point Creation
+Can't use or create Restore Points within Windows, however restoring through Advanced Recovery will work.
 
-(Services)
-4. BFE
-5. mpssvc
-6. webthreatdefsvc
-7. WpnUserService
-8. Dnscache
-9. SystemEventsBroker
-10. EventSystem
-11. AppIDSvc
-12. wscsvc
-13. NgcCtnrSvc 
-14. TimeBrokerSvc
-15. WinHttpAutoProxySvc
-16. QWAVE
-17. seclogon
-18. SENS
-19. Schedule
-20. webthreatdefusersvc
-21. hidserv
-22. NgcSvc
-23. sppsvc
-24. AppXSvc
-25. edgeupdate
-26. edgeupdatem
-27. MicrosoftEdgeElevationService
-28. SecurityHealthService
-29. WinDefend
-30. WdNisSvc
-31. SamSs
-32. VaultSvc
-33. LicenseManager
-34. gpsvc
-35. EventLog 
-36. PlugPlay
-37. SgrmBroker
-38. msiserver 
+**Work Around:** 
 
-(Restore Point Creation)
-Can't use or create Restore Points.
+&nbsp;1. Hold Shift and click Restart.
 
-(Windows Defender)
-Enough Said, Use [Windows Security Fixer](https://github.com/QuakedK/Downloads/blob/main/Windows%20Security%20Fixer.bat) if you can't open Windows Security/Defender. Then Download [Dcontrol](https://github.com/QuakedK/Downloads/blob/main/Dcontrol.rar) using Sordum as the password to extract and disable or renebale defender.
+&nbsp;2. Once in Advanced Recovery, click Troubleshoot -> Advanced Options -> System Restore
 
-(Windows key/licence)
-It may bug out and deactivate windows but we can fix this easily with 2 different fast and simple methods!
-Method 1, Open Cmd as admin & paste "net start sppsvc" then it should reactivate and paste net stop sppsvc.
-Method 2, Open [Software Protection](https://github.com/QuakedK/Downloads/blob/main/Software%20Protection.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe).
-Method 3, run [Massgravel](https://github.com/QuakedK/Downloads/blob/main/Free%20Windows%20Key.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) and click 1 to activate Windows. Then run [Winkey Afterrun](https://github.com/QuakedK/Downloads/blob/main/Winkey%20Afterrun.bat) to disable services Massgravel might've activated.
-If you get a trusted installer error with NSudo Open CMD as admin and paste sc config TrustedInstaller start=auto.
+Having trouble navigating in Advanced Recovery? Watch this excellent [tutorial!](https://youtube.com/shorts/v1K0BQoV34A?feature=share)
+___
 
+# Windows Search
+Windows Search completely breaks after Process Destroyer, Unless you use [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu).
+___
 
+# Wifi
+Process Destroyer will break Wi-Fi and no Oneclick Wi-Fi Fixer won't fix it. (Only use PD on Ethernet)
+___
 
-(Task/Task Scheduler)
-Since the Service Schedule isn't enabled, things like Msi Afterburner Won't start on startup. You could use [Msi Afterburner Auto Start Reg](https://github.com/QuakedK/Downloads/blob/main/Msi%20Afterburner%20Auto%20Start.reg) or Reenable Schedule with [Schedule Enabler](https://github.com/QuakedK/Downloads/blob/main/Reenable%20Schedule.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe).
+# Windows key/licence
+Process Destroyer makes Software Protection Service manual meaning, every 6 hours or so the Windows watermark might show up.
+However you can either set it back to automatic or use a batch to stop and start it from time to time.
 
-(Windows Search)
-Completely Breaks after Process Destroyer, Unless you use [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu)
+**Method 1**
+1. Download [Software Protection](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/Software%20Protection.bat).
+2. Open it when needed!
 
-(Wifi)
-Process Destroyer Will break Wifi.
+**Method 2**
+1. Open [Nsudo](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
+```
+:: Make Software Protection Service Automatic.
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\sppsvc" /v "Start" /t REG_DWORD /d "2" /f
+```
+___
 
-If NSudo is not working run [TrustedInstaller Enabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Enabler.bat) or if you need to Disable it after run [TrustedInstaller Disabler](https://github.com/QuakedK/Downloads/blob/main/TI%20Disabler.bat) or paste sc config TrustedInstaller start=auto into cmd as admin!
-
-(.Net Runtimes Install)
-You need to open [Windows Installer Enable](https://github.com/QuakedK/Downloads/blob/main/Windows%20Installer%20Enable.bat) in [Nsudo](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) to install you're needed runtimes! [Windows Installer Disable](https://github.com/QuakedK/Downloads/blob/main/Windows%20Installer%20Disable.bat)
-
-(NVIDIA Control Panel) 
-Can't use it, but can reenable it!
-1. Download [NvControlPanel.bat](https://github.com/QuakedK/Downloads/blob/main/NvControlPanel.bat).
-2. Download [NSudoLG.exe](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe)
-3. Open NSudoLG.exe and Enable All Privileges then drag NvControlPanel.bat into Nsudo.
-
-Method 2: 
-1. Download [NVIDIAControlPanel.Appx](https://github.com/QuakedK/Downloads/blob/main/NVIDIACorp.NVIDIAControlPanel_8.1.966.0_x64__56jybvy8sckqj.Appx)
-2. Download [Process Destroyer 2.1 REVERT](https://github.com/QuakedK/Downloads/blob/main/Oneclick%20Process%20Destroyer%202.1%20REVERT.bat)
-3. Download [NSudoLG.exe](https://github.com/QuakedK/Downloads/blob/main/NSudoLG.exe) 
-4. Open NSudoLG.exe and Enable All Privileges then drag Process Destroyer 2.1 REVERT into Nsudo then restart.
-5. Open open powershell as admin and paste Add-AppxPackage -Path "C:\Users\Quaked\Downloads\NVIDIACorp.NVIDIAControlPanel_8.1.966.0_x64__56jybvy8sckqj.Appx"
-   But change the path to your path NVIDIACorp.NVIDIAControlPanel_8.1.966.0_x64__56jybvy8sckqj.Appx
-
-NSudo Error:
-1. Open Cmd as admin and paste sc config TrustedInstaller start=auto
