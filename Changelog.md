@@ -45,3 +45,18 @@
 - Made a Process Destroyer Extreme version that deletes services.
 
  --- 
+
+ **Process Destroyer & Extreme V2.4**
+
+2/11/26 <3
+
+*Added*
+- Added (Read the Unsupported List) text.
+
+*Removed*
+- Removed Dnscache service. (If the user is on windows 11 24H2+ aand now older versions like 23H2-21H2 through Cumulative Updates then ethernet will stop working)
+
+*Fixed*
+- Fixed a spelling mistake in Process Destroyer Warning.
+
+ --- 
