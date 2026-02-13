@@ -71,6 +71,11 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\msiserver" /v "Start" /t REG_DWO
 ```
 :: Import Registry Backup.
 reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
+
+:: Revert Ctfmon, BackgroundTaskHost, and TextInputHost.
+REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe" 
+REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
+REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
 ```
 
 # Revert Extreme Version.
