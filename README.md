@@ -86,5 +86,7 @@ REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHo
 :: Import Registry Backup.
 reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 ```
+# Services that didn't make the cut/aren't deleted.
+1. [What Services weren't deleted In PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md) 
 
-
+2. [What services might fail to delete](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20services%20might%20fail%20to%20delete.md) 
