@@ -60,3 +60,22 @@
 - Fixed a spelling mistake in Process Destroyer Warning.
 
  --- 
+
+**Process Destroyer & Extreme V2.5**
+
+2/13/26 <3
+
+*Added*
+- Added WaaSMedicSvc Service to Regular PD Extreme.
+- Added wuauserv Service to Regular PD Extreme.
+- Added UsoSvc Service to Regular PD Extreme.
+- Added MicrosoftEdgeElevationService to Regular PD Extreme.
+- Added edgeupdate Service to Regular PD Extreme.
+- Added edgeupdatem Service to Regular PD Extreme.
+- Added UAC disabler to Regular PD Extreme.
+
+*Fixed*
+- Fixed SharedAccess deletion.
+
+--- 
+
