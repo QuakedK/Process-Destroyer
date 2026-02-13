@@ -13,18 +13,6 @@ reg delete "HKLM\System\CurrentControlSet\Services\mpssvc" /f
 sc delete mpssvc
 ```
 
-# 2. Internet Connection Sharing (ICS) Service
-**Internet Connection Sharing (ICS) Service** or **SharedAccess** is responsible for providing network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network.
-
-> [!NOTE]
-> ****Internet Connection Sharing (ICS) Service** or **SharedAccess** is responsible for providing network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network. Service** appears not to be deleted if [Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsService/Process-Destroyer-Extreme-V2.4.bat) was ran after and within [Oneclick](https://github.com/QuakedK/Oneclick).
-> Simply deleting manually after restarting will fix this! **Must be deleted using Nsudo of course and you'll need to restore TrustedInstaller**
-
-```bat
-:: Delete SharedAccess
-reg delete "HKLM\System\CurrentControlSet\Services\SharedAccess" /f
-```
-
 # Revert TrustedInstaller
 1. Go to file explorer and find ```C:\Process Destroyer\Revert\Trusted_Installer_Backup.reg``` and open it up then restart.
 2. Now Open [Nsudo](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
