@@ -27,14 +27,14 @@ After the ideal use of Oneclick with no wifi idling for 15 minutes, you'll likly
 /[Windows 10](https://www.youtube.com/watch?v=rHEgHumzjVQ)
 
 # Usage
-[Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsService/Process-Destroyer-V2.4.bat) | The **Regular Version** with a gui elements. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md).
+[Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceRemover/Process-Destroyer-V2.5.bat) | The **Regular Version** with a gui elements. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md).
 
-[Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsService/Process-Destroyer-Extreme-V2.4.bat) | The **Extreme Version** that deletes almost all services, leaving Services.msc looking as empty as possible. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md).
+[Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceRemover/Process-Destroyer-Extreme-V2.5.bat) | The **Extreme Version** that deletes almost all services, leaving Services.msc looking as empty as possible. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md).
 
-[Oneclick Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsService/Oneclick-Process-Destroyer-V2.4.bat) & [Oneclick Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsService/Oneclick-Process-Destroyer-Extreme-V2.4.bat) | The **Oneclick Versions** that are paired with Oneclick and Oneclick Tools <3
+[Oneclick Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceRemover/Oneclick-Process-Destroyer-V2.5.bat) & [Oneclick Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceRemover/Oneclick-Process-Destroyer-Extreme-V2.5.bat) | The **Oneclick Versions** that are paired with Oneclick and Oneclick Tools <3
 
 1. Download [Nsudo](https://github.com/M2TeamArchived/NSudo/releases/download/9.0-Preview1/NSudo_9.0_Preview1_9.0.2676.0.zip) (Offical Site) or the Standalone exe from [Downloads](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe)
-2. Download and choose your [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/tag/WindowsService) version.
+2. Download and choose your [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/tag/WindowsServiceRemover) version.
 3. Open [NSudoLG.exe](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges then drop/drag [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/tag/Services) into Nsudo then click run.
 
 Join our [Discord Server](https://discord.gg/8NqDSMzYun)!
