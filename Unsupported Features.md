@@ -21,7 +21,7 @@ Windows Search completely breaks after Process Destroyer, Unless you use [Open S
 ___
 
 # Wifi
-Process Destroyer will break Wi-Fi and no Oneclick Wi-Fi Fixer won't fix it. (Only use PD on Ethernet)
+Process Destroyer will break Wi-Fi and no Oneclick Wi-Fi Fixer won't fix it. **(Only use PD on Ethernet)**
 ___
 
 # Windows key/licence
@@ -38,6 +38,17 @@ However you can either set it back to automatic or use a batch to stop and start
 ```
 :: Make Software Protection Service Automatic.
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\sppsvc" /v "Start" /t REG_DWORD /d "2" /f
+```
+___
+
+# Windows Installer
+Process Destroyer disables the Windows Installer service, meaning the installation of some programs won't work.
+However the service can easily be re-enabled by following these steps!
+1. Open [Nsudo](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
+```
+:: Enable msiserver.
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\msiserver" /v "Start" /t REG_DWORD /d "3" /f
 ```
 ___
 
