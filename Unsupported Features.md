@@ -52,3 +52,8 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\msiserver" /v "Start" /t REG_DWO
 ```
 ___
 
+# (Notepad++)
+
+Process Destroyer natively disables [AppX Deployment Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#appx-deployment-service), which breaks [Notepad++](https://notepad-plus-plus.org/downloads/) casuing it to restart explorer everytime something is left-clicked within file explorer or the desktop. However AppX Deployment Service can be easily re-enabled at [Notepad++ Fix](https://github.com/QuakedK/Process-Destroyer/blob/main/Help/Process%20Destroyer%20Fixes.md).
+
+___
