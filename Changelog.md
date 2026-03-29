@@ -79,3 +79,18 @@
 
 --- 
 
+**Process Destroyer & Extreme V2.6**
+
+3/29/26 <3
+
+*Added*
+- Added AppXSvc service to be disabled. (Removed in Oneclick V8.4 so added to PD)
+- Added TimeBrokerSvc service to be disabled. (Removed in Oneclick V8.4 so added to PD)
+- Added Notepad++ to the unsupported list warning.
+- Added spectrum Service to be deleted. (PD Extreme)
+
+*Fixed*
+- Fixed/Reorginized the services alphabetically.
+- Fixed/Removed unnecessary Registry Backup Log. (PD Extreme)
+
+--- 
