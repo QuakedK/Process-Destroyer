@@ -94,3 +94,14 @@
 - Fixed/Removed unnecessary Registry Backup Log. (PD Extreme)
 
 --- 
+
+**Process Destroyer & Extreme V2.6 Re-release**
+
+3/30/26 <3
+
+*Added*
+- Added Appinfo disabler. (Normal & Oneclick Process Destroyer)
+- Added UAC Disabler. (Normal Process Destroyer)
+- Added the Brackets (Needed for Windows Activation) to the end of "Set Software Protection to Manual" Comment.
+
+---
