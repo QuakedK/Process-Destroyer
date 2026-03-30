@@ -1,7 +1,7 @@
 # Unsupported or disabled features of Process Destroyer
 ⚠️ **Please read carefully, we are not responsible for any issues that may occur:**
 
-As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) & [Oneclick](https://github.com/QuakedK/Oneclick) are meant to be ran together please check out the [Oneclick Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md)
+As Both [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) & [Oneclick](https://github.com/QuakedK/Oneclick) are meant to be ran together please check out the [Oneclick Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md).
 ___
 
 # Restore Point Creation
@@ -54,6 +54,6 @@ ___
 
 # (Notepad++)
 
-Process Destroyer natively disables [AppX Deployment Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#appx-deployment-service), which breaks [Notepad++](https://notepad-plus-plus.org/downloads/) casuing it to restart explorer everytime something is left-clicked within file explorer or the desktop. However AppX Deployment Service can be easily re-enabled at [Notepad++ Fix](https://github.com/QuakedK/Process-Destroyer/blob/main/Help/Process%20Destroyer%20Fixes.md).
+Process Destroyer natively disables [AppX Deployment Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#appx-deployment-service), which breaks [Notepad++](https://notepad-plus-plus.org/downloads/) casuing it to restart explorer everytime something is left-clicked within file explorer or the desktop. However AppX Deployment Service can be easily re-enabled at [Notepad++ Fix](https://github.com/QuakedK/Process-Destroyer/blob/main/Help/Process%20Destroyer%20Fixes.md#1-left-clicking-files-on-the-desktop-causing-explorer-to-crash).
 
 ___
