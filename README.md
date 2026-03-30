@@ -49,7 +49,6 @@ REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe"
 REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
 REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
 
-
 :: Revert Services.
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\mpssvc" /v "Start" /t REG_DWORD /d "2" /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\WpnUserService" /v "Start" /t REG_DWORD /d "2" /f
@@ -64,6 +63,12 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\WdNisSvc" /v "Start" /t REG_DWOR
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\gpsvc" /v "Start" /t REG_DWORD /d "2" /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\PlugPlay" /v "Start" /t REG_DWORD /d "3" /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\msiserver" /v "Start" /t REG_DWORD /d "3" /f
+
+:: Revert AppInfo.
+sc config AppInfo start=demand
+
+:: Revert UAC.
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
 **Method 2:**
 1. Open [Nsudo](https://github.com/QuakedK/Process-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
@@ -75,7 +80,10 @@ reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 :: Revert Ctfmon, BackgroundTaskHost, and TextInputHost.
 REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe" 
 REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
-REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
+REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe"
+
+:: Revert UAC.
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
 
 # Revert Extreme Version.
@@ -90,6 +98,9 @@ REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHo
 
 :: Import Registry Backup.
 reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
+
+:: Revert UAC.
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
 # Services that didn't make the cut/aren't deleted.
 1. [What Services weren't deleted In PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md) 
