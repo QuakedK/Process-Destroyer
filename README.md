@@ -86,7 +86,8 @@ REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHo
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
 > [!NOTE]
-> If [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceDeleter/Process-Destroyer-V2.6.bat) was done within [Oneclick](https://github.com/QuakedK/Oneclick), the Trusted Installer Backup path changes to ```C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg```!
+> If [Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceDeleter/Process-Destroyer-V2.6.bat) was done within [Oneclick](https://github.com/QuakedK/Oneclick), the Trusted Installer Backup path changes to ```C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg```.
+> And because of the change in path, the means the **Import Registry Backup Command** needs to be updated to ```reg import "C:\Oneclick Tools\Process Destroyer\Revert\Services_Backup.reg"```. Need an example go to [Oneclick Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#26-process-destroyer) to see what needs to be changed!
 
 # Revert Extreme Version.
 1. Go to file explorer and find ```C:\Process Destroyer\Revert\Trusted_Installer_Backup.reg``` and open it up then restart.
@@ -105,7 +106,8 @@ reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
 > [!NOTE]
-> If [Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceDeleter/Process-Destroyer-Extreme-V2.6.bat) was done within [Oneclick](https://github.com/QuakedK/Oneclick), the Trusted Installer Backup path changes to ```C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg```!
+> If [Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceDeleter/Process-Destroyer-Extreme-V2.6.bat) was done within [Oneclick](https://github.com/QuakedK/Oneclick), the Trusted Installer Backup path changes to ```C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg```.
+> And because of the change in path, the means the **Import Registry Backup Command** needs to be updated to ```reg import "C:\Oneclick Tools\Process Destroyer\Revert\Services_Backup.reg"```. Need an example go to [Oneclick Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#27-process-destroyer-extreme) to see what needs to be changed!
 
 # Services that didn't make the cut/aren't deleted.
 1. [What Services weren't deleted In PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md) 
