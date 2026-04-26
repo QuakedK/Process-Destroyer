@@ -85,6 +85,8 @@ REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHo
 :: Revert UAC.
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
+> [!NOTE]
+> If [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceDeleter/Process-Destroyer-V2.6.bat) was done within [Oneclick](https://github.com/QuakedK/Oneclick), the Trusted Installer Backup path changes to ```C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg```!
 
 # Revert Extreme Version.
 1. Go to file explorer and find ```C:\Process Destroyer\Revert\Trusted_Installer_Backup.reg``` and open it up then restart.
@@ -102,6 +104,9 @@ reg import "C:\Process Destroyer\Revert\Services_Backup.reg"
 :: Revert UAC.
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
+> [!NOTE]
+> If [Process Destroyer Extreme](https://github.com/QuakedK/Process-Destroyer/releases/download/WindowsServiceDeleter/Process-Destroyer-Extreme-V2.6.bat) was done within [Oneclick](https://github.com/QuakedK/Oneclick), the Trusted Installer Backup path changes to ```C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg```!
+
 # Services that didn't make the cut/aren't deleted.
 1. [What Services weren't deleted In PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md) 
 
