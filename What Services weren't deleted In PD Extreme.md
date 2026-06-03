@@ -45,7 +45,20 @@ reg delete "HKLM\System\CurrentControlSet\Services\DispBrokerDesktopSvc" /f
 sc config DispBrokerDesktopSvc start=disabled
 ```
 
-# 4. Microsoft Software Shadow Copy Provider Service
+# 4. DNS Client
+**DNS Client Service** or **Dnscache** (DNS Client) is the Windows service that caches DNS lookups and handles translating domain names (like google.com) into IP addresses faster and more efficiently.
+
+> [!CAUTION]
+> If the DNS Client Service is disabled, starting on windows 11 24H2+ and now older versions like 23H2-21H2 through Cumulative Updates then ethernet will stop working.
+
+```bat
+:: Disable Dnscache (Have verified deleting it)
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache" /v "Start" /t REG_DWORD /d "4" /f
+```
+> [!NOTE]
+> 100% can be deleted with any consequences on Win 11 22H2/Build 22621.525!
+
+# 5. Microsoft Software Shadow Copy Provider Service
 **Microsoft Software Shadow Copy Provider Service** or **swprv** is responsible for managing software-based volume shadow copies taken by the Volume Shadow Copy service.
 
 > [!CAUTION]
@@ -59,7 +72,7 @@ reg delete "HKLM\System\CurrentControlSet\Services\swprv" /f
 sc config swprv start=disabled
 ```
 
-# 5. Software Protection Service
+# 6. Software Protection Service
 **Software Protection Service** or **sppsvc** is responsible for managing the download, installation and enforcement of digital licenses for Windows and Windows applications. 
 
 > [!CAUTION]
@@ -73,7 +86,7 @@ reg delete "HKLM\System\CurrentControlSet\Services\sppsvc" /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\sppsvc" /v "Start" /t REG_DWORD /d "4" /f
 ```
 
-# 6. Volume Shadow Copy Service
+# 7. Volume Shadow Copy Service
 **Volume Shadow Copy Service** or **VSS** is responsible for managing and implementing Volume Shadow Copies used for backup and other purposes.
 
 > [!CAUTION]
@@ -87,7 +100,7 @@ reg delete "HKLM\System\CurrentControlSet\Services\VSS" /f
 sc config VSS start=disabled
 ```
 
-# 7. Windows Management Instrumentation Service
+# 8. Windows Management Instrumentation Service
 **Windows Management Instrumentation Service** or **Winmgmt** is a core Windows service used for system management and monitoring. 
 
 > [!CAUTION]
