@@ -119,4 +119,9 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "Ena
 1. [List Services After PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md)
 
 2. [What remaining Services could technically be disabled or removed After PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/Services%20After%20PD%20Extreme.md#what-remaining-services-could-technically-be-disabled-or-removed)
-   
+
+# What Services being disabled or removed require an Offline/Local Account.
+```
+NgcCtnrSvc
+NgcSvc
+```
