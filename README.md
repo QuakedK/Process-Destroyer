@@ -110,6 +110,13 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "Ena
 > And because of the change in path, the means the **Import Registry Backup Command** needs to be updated to ```reg import "C:\Oneclick Tools\Process Destroyer\Revert\Services_Backup.reg"```. Need an example go to [Oneclick Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#27-process-destroyer-extreme) to see what needs to be changed!
 
 # Services that didn't make the cut/aren't deleted.
-1. [What Services weren't deleted In PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md) 
+1. [What Services weren't deleted in PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md) 
 
-2. [What services might fail to delete](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20services%20might%20fail%20to%20delete.md) 
+2. [What services might fail to delete](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20services%20might%20fail%20to%20delete.md)
+
+# Services PD Extreme
+
+1. [List Services After PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/What%20Services%20weren't%20deleted%20In%20PD%20Extreme.md)
+
+2. [What remaining Services could technically be disabled or removed After PD Extreme](https://github.com/QuakedK/Process-Destroyer/blob/main/Services%20After%20PD%20Extreme.md#what-remaining-services-could-technically-be-disabled-or-removed)
+   
